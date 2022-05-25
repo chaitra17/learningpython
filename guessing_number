@@ -1,0 +1,11 @@
+import random
+n=random.randint(1,50)
+while True:
+  ans = int(input("enter your guess:"))
+  if ans==n:
+    print("Success! you win")
+    break
+   elif ans>n:
+    print("too high")
+   else:
+    print("too low")
